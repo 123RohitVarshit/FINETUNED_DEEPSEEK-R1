@@ -32,16 +32,18 @@ This project stands on the shoulders of some amazing technologies. Here’s a qu
 *   📊 **Weights & Biases (`wandb`)**: Our digital lab notebook. It automatically logs all the important metrics during training (like how fast the model is learning), so we can track our experiments and see what works best.
 ## The Guided Tour (Jupyter Notebook)
 This is the best way to start. The notebook lets you run the code cell-by-cell, inspect outputs, and truly understand the process.
-![alt text](https://colab.research.google.com/assets/colab-badge.svg)
 
-(Important: Replace the URL above with the actual link to your notebook on GitHub!)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/123RohitVarshit/FINETUNED_DEEPSEEK-R1/blob/main/FINETUNE_DEEPSEEK%20(1).ipynb)
+
 Your Journey in Colab:
-Open in Colab: Click the badge above to launch the notebook.
-Activate the GPU: In the menu, navigate to Runtime -> Change runtime type and select a GPU accelerator (like the T4).
-Store Your Secrets: On the left sidebar, click the key icon (Secrets) and add your API keys. This keeps them safe and secure.
-Name: Hugging_Face_Token, Value: your_hf_..._token
-Name: wnb, Value: your_wandb_..._key
-Run the Show: Execute the cells from top to bottom and watch your medical AI come to life!
+1. **Open in Colab**: Click the badge above to launch the notebook.
+2. **Activate the GPU**: In the menu, navigate to Runtime -> Change runtime type and select a GPU accelerator (like the T4).
+3. **Store Your Secrets**: On the left sidebar, click the key icon (Secrets) and add your API keys. This keeps them safe and secure.
+
+   * Name: Hugging_Face_Token, Value: your_hf_..._token
+   * Name: wnb, Value: your_wandb_..._key
+      
+5. **Run the Show**: Execute the cells from top to bottom and watch your medical AI come to life!
 
 ## How It Works: A Step-by-Step Journey 🚶‍♂️
 
@@ -75,9 +77,9 @@ The Python script guides the model through its medical school training:
 Clone this repository and install the dependencies. The script itself contains the necessary `pip` commands at the top.
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
-pip install -r requirements.txt # Or run the pip commands in the script
+git clone https://github.com/123RohitVarshit/FINETUNED_DEEPSEEK-R1.git
+cd FINETUNED_DEEPSEEK-R1
+pip install -r requirements.txt 
 ```
 
 ### Configuration
